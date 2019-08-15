@@ -1,24 +1,56 @@
 {
-  "name": "homebridge-kumo",
-  "version": "0.0.1",
-  "description": "Control your Kumo Cloud enabled mini-split with Homekit",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "homebridge-kumo",
+  "_id": "homebridge-kumo@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-fgBnJnq+LTtBvI3/oSKmFdAtQvA7BrVQTCQVyUArTlEp1XwvlH0ZR8PMYI96UHrr+zgLIdVRnFoke9XwLbqCWQ==",
+  "_location": "/homebridge-kumo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-kumo",
+    "name": "homebridge-kumo",
+    "escapedName": "@cmassa%2fhomebridge-kumo",
+    "scope": "@cmassa",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-kumo/-/homebridge-kumo-0.0.1.tgz",
+  "_shasum": "a0a99a8f97d5bc8ef238e0270901347ab223b4f8",
+  "_spec": "homebridge-kumo",
+  "_where": "C:\\Users\\Administrator",
+  "author": {
+    "name": "Mikael Nelson"
+  },
+  "bugs": {
+    "url": "https://github.com/mikaelnelson/homebridge-kumo/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "request": "^2.67.0"
+  },
+  "deprecated": false,
+  "description": "Control your Kumo Cloud enabled mini-split with Homekit",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/mikaelnelson/homebridge-kumo#readme",
   "keywords": [
     "homebridge-plugin"
   ],
-  "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
-  },
-  "author": "Mikael Nelson",
+  "main": "index.js",
+  "name": "homebridge-kumo",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikaelnelson/homebridge-kumo.git"
-    },
-    "dependencies": {
-    "request": "^2.67.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }
